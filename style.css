@@ -41,6 +41,9 @@ body {
   color: white;
   list-style: none;
 }
+.navbar .grow-list li:nth-child(1)::after {
+  content: " V";
+}
 .navbar .button-small {
   background-color: #ba0cc5;
   height: 40px;

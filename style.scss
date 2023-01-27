@@ -43,6 +43,9 @@ body {
 			color: white;
 			list-style: none;
 		}
+		li:nth-child(1)::after {
+			content: " V";
+		}
 	}
 
 	.button-small {
